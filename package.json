@@ -1,0 +1,36 @@
+{
+  "name": "erd-webshop-prisma",
+  "version": "1.0.0",
+  "description": "Transfer your ERD into Prisma models, seed fake data, and experiment with Express endpoints using req.body, req.params, and req.query.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonalMahe/ERD-Webshop-Prisma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SonalMahe/ERD-Webshop-Prisma/issues"
+  },
+  "homepage": "https://github.com/SonalMahe/ERD-Webshop-Prisma#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "prisma": "^6.17.0"
+  }
+}
